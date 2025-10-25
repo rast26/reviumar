@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Contacto - ReviuMar Fundación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">ReviuMar Fundación</h1>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-label="Abrir menú">≡</button>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="tecnica.html">Detalles técnicos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Escríbenos</h2>
+  <p>Puedes enviarnos un correo o completar el formulario. Para recibir respuestas automáticas necesitarás conectar esto a un servicio de correo (ver README). Dirección de contacto: <a href="mailto:info@reviumar.org">info@reviumar.org</a></p>
+
+      <form id="contactForm">
+        <label>Nombre:
+          <input type="text" name="name" id="name" required>
+        </label>
+        <label>Email:
+          <input type="email" name="email" id="email" required>
+        </label>
+        <label>Mensaje:
+          <textarea name="message" id="message" rows="6" required></textarea>
+        </label>
+        <p class="form-actions">
+          <button type="submit" class="btn">Enviar</button>
+          <a class="btn ghost" href="mailto:info@reviumar.org">Enviar por email</a>
+        </p>
+        <p id="formMsg" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">© Proyecto Linternas</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>

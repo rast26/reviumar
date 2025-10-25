@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Galería - ReviuMar Fundación</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="brand">ReviuMar Fundación</h1>
+      <button id="navToggle" class="nav-toggle" aria-expanded="false" aria-label="Abrir menú">≡</button>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="tecnica.html">Detalles técnicos</a>
+        <a href="galeria.html">Galería</a>
+        <a href="blog.html">Blog</a>
+        <a href="contacto.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section>
+      <p>Sube tus fotos y videos a <code>images/</code>. A continuación hay una galería de ejemplo centrada en Barranco de las Ovejas y Playa de San Gabriel. Haz clic en una imagen para verla ampliada.</p>
+      <div class="gallery" id="gallery">
+        <figure>
+          <img src="images/barranco-1.jpg" alt="Barranco de las Ovejas - acantilado" data-full="images/barranco-1.jpg">
+          <figcaption>Barranco de las Ovejas — acantilado y acceso</figcaption>
+        </figure>
+        <figure>
+          <img src="images/san-gabriel-1.jpg" alt="Playa de San Gabriel - orilla" data-full="images/san-gabriel-1.jpg">
+          <figcaption>Playa de San Gabriel — orilla y dunas</figcaption>
+        </figure>
+        <figure>
+          <img src="images/equipo-1.jpg" alt="Equipo ReviuMar trabajando" data-full="images/equipo-1.jpg">
+          <figcaption>Voluntarios en jornada de limpieza</figcaption>
+        </figure>
+      </div>
+      <!-- Lightbox modal -->
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button class="lightbox-close" aria-label="Cerrar">×</button>
+        <img class="lightbox-img" src="" alt="">
+        <p class="lightbox-caption"></p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="container">© Proyecto Linternas</div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
