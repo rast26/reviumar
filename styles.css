@@ -18,6 +18,20 @@ body{font-family:var(--root-font, Segoe UI, Roboto, Arial, sans-serif);margin:0;
 .nav-toggle{display:none;background:transparent;border:0;color:#fff;font-size:1.4rem;padding:0.25rem 0.5rem}
 .site-header nav a{color:rgba(255,255,255,0.95); margin-left:1rem; text-decoration:none;padding:0.5rem;border-radius:6px}
 .site-header nav a:hover{background:rgba(255,255,255,0.08)}
+
+/* Logo in header */
+.logo-link{display:flex;align-items:center;margin-right:0.5rem}
+.logo{height:48px;width:auto;display:block}
+
+/* Mascota styling for hero (shown on homepage) */
+.hero{padding:3.5rem 1.5rem;border-radius:10px;margin:1.25rem 0;background:linear-gradient(180deg, rgba(11,135,144,0.06), rgba(39,180,200,0.03));display:flex;align-items:center}
+.hero-content{max-width:720px}
+.hero-mascot{max-width:260px;height:auto;margin-left:1.25rem;flex-shrink:0}
+
+@media (max-width:800px){
+	.hero{flex-direction:column;align-items:flex-start}
+	.hero-mascot{max-width:180px;margin:1rem 0 0 0}
+}
 .hero{background:linear-gradient(90deg,#e6f7f0,#f0fff7);padding:1rem;border-radius:8px;margin:1rem 0}
 .hero{padding:3.5rem 1.5rem;border-radius:10px;margin:1.25rem 0;background:linear-gradient(180deg, rgba(11,135,144,0.06), rgba(39,180,200,0.03));display:flex;align-items:center}
 .hero-large{background-image:linear-gradient(120deg, rgba(11,135,144,0.06), rgba(39,180,200,0.02));}
