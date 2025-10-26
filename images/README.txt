@@ -1,9 +1,13 @@
-Coloca aquí las fotos y videos del proyecto. Se recomiendan los siguientes nombres (ya referenciados en `galeria.html`):
+Coloca aquí las fotos y videos del proyecto. Se recomiendan los siguientes nombres (ya referenciados en el sitio):
 
-- barranco-1.jpg    -> Fotos del Barranco de las Ovejas (acantilado, senderos, accesos)
-- san-gabriel-1.jpg -> Fotos de la Playa de San Gabriel (orilla, dunas, señalización)
-- equipo-1.jpg      -> Fotos de voluntariado y jornadas de limpieza
+- batimetria.jpg        -> Mapa batimétrico o imagen de batimetría del área (profundidades)
+- redes-ostras.jpg      -> Fotos o esquemas de las estructuras, redes y mesas donde se instalarán las ostras
+- playa-san-gabriel.jpg -> Fotos de la Playa de San Gabriel (orilla, dunas, accesos)
+- logo.jpg              -> Logo de ReviuMar (preferible SVG, pero JPG/PNG funciona)
+- mascota.jpg           -> Imagen de la mascota de la fundación (PNG/WebP con fondo transparente si es posible)
+- bg-water.jpg          -> Imagen de fondo tipo agua cristalina (opcional). Recomendado: JPEG/WebP optimizado, 1600–2400px ancho.
+- water-texture.png     -> Textura overlay sutil (opcional) para añadir brillo/movimiento. PNG con repetición.
 
-Sustituye los ficheros con tus imágenes con los mismos nombres, o edita `galeria.html` para usar nombres diferentes.
+Sustituye los ficheros con tus imágenes con los mismos nombres, o edita los archivos HTML para usar nombres diferentes.
 
-Consejos: optimiza las imágenes para web (JPEG 80% / WebP, max 1600px ancho) para mejorar tiempos de carga.
+Consejos: optimiza las imágenes para web (WebP o JPEG 80%) y nombra las imágenes exactamente como arriba para que las páginas las muestren automáticamente.
